@@ -1,8 +1,8 @@
-#WeatherApp
+# WeatherApp
 Um breve aplicativo usando Xamarim Foms para disciplina de Dispositivos Móveis(2022.1)
 
 
-#Resumo
+# Resumo
 
 O projeto tem como objetivo desenvolver um applicativo usando Xamarim Forms com os seguintes requisitos:
 
