@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherApp.Views.LoginUI">
+    
+    <ContentPage.Content>
+
+        <Grid
+            BackgroundColor="#698ec9">
+                <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                    <Label Text="Clíma Diário" Margin="0, 2" HorizontalOptions="CenterAndExpand" FontSize="25" TextColor="White"/>
+                    <Image Source="umbrelaldpi.png" Margin="0, 5, 0, 5"></Image>
+                    <Label Text="Usuário" Margin="0, 2" FontSize="16" TextColor="White"></Label>
+                    <Entry x:Name="usertxt" TextColor="Black"  BackgroundColor="White"></Entry>
+                    <Label Text="Senha" Margin="0, 5" FontSize="16" TextColor="White"></Label>
+                <Entry x:Name="passtxt" IsPassword="True" TextColor="Black" BackgroundColor="White"></Entry>
+
+                <Button
+                Margin="50, 10"
+                VerticalOptions="Center"
+                Text="Login"
+                TextColor="#FFFFFF"
+                BackgroundColor="#26c9a9"
+                BorderWidth="1"
+                Clicked="Button_Clicked"
+                ></Button>
+
+                <Label HorizontalOptions="Center">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Não possui conta? " TextColor="#FFFFFF"></Span>
+                            <Span Text="Registre-se" TextColor="#FFFFFF" FontAttributes="Bold" TextDecorations="Underline"></Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+
+                </Label>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

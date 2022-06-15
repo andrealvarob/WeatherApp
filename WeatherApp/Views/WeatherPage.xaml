@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherApp.Views.WeatherPage"
+             BackgroundImage="earth.png">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+            <Label Text="Clíma Diário" Margin="0, 5" HorizontalOptions="CenterAndExpand" FontSize="25" TextColor="White"/>
+            <Editor x:Name="lugar" Placeholder=" Cidade, Estado, País " PlaceholderColor="Black" BackgroundColor="White" IsSpellCheckEnabled="false"></Editor>
+            <Button
+                Margin="50, 10, 50, 40"
+                VerticalOptions="Center"
+                Text="Pesquisar"
+                TextColor="#FFFFFF"
+                BackgroundColor="#26c9a9"
+                BorderWidth="1"
+                Clicked="Button_Search"
+                ></Button>
+
+            <Image x:Name="picIcon" BackgroundColor="Transparent" Source="" HeightRequest="100" WidthRequest="100"/>
+
+            <Label x:Name="labcondition" Text="Condição clímatica: " TextColor="White" Margin="0, 2" FontSize="18"></Label>
+            <Label x:Name="labtemp" Text="Temperatura: " TextColor="White" Margin="0, 2" FontSize="18"></Label>
+            <Label x:Name="labmax" Text="Máxima: " TextColor="White" Margin="0, 2" FontSize="18"></Label>
+            <Label x:Name="labmin" Text="Mínima: " TextColor="White" Margin="0, 2" FontSize="18"></Label>
+            <Label x:Name="labsunrise" Text="Nascer do sol: " TextColor="White" Margin="0, 2" FontSize="18"></Label>
+            <Label x:Name="labsunset" Text="Pôr do sol: " TextColor="White" Margin="0, 2" FontSize="18"></Label>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

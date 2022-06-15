@@ -1,0 +1,17 @@
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\bin\Debug\netstandard2.0\WeatherApp.deps.json
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\bin\Debug\netstandard2.0\WeatherApp.dll
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\bin\Debug\netstandard2.0\WeatherApp.pdb
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\WeatherApp.csproj.AssemblyReference.cache
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\WeatherApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\WeatherApp.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\WeatherApp.AssemblyInfo.cs
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\WeatherApp.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\WeatherApp.dll
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\refint\WeatherApp.dll
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\WeatherApp.pdb
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\ref\WeatherApp.dll
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\Views\LoginUI.xaml.g.cs
+C:\Users\andre\source\repos\WeatherApp\WeatherApp\obj\Debug\netstandard2.0\Views\WeatherPage.xaml.g.cs
