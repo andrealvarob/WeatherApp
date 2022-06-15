@@ -28,7 +28,7 @@ Após ler toda documentaçãao, escolhi a API openweather para fornecer as infor
   
   > <a>https://openweathermap.org/current</a>
 
-E finalmente, para converter as informações do arquivo json para dados validos no meu programa utilizei um NuGet Package que deve ser instalado para a aplicação funcionar
+E finalmente, para converter as informações do arquivo json para dados validos no meu programa, utilizei um NuGet Package que deve ser instalado para a aplicação funcionar
   
   > newtonsoft.json
   
