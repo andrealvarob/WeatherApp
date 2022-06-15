@@ -34,7 +34,13 @@ E finalmente, para converter as informações do arquivo json para dados validos
   
   # Sobre o desenvolvimento
   
-  Basicamente o meu projeto seguiu o padrão MVC, meus principais Models são WeatherData que contém as classes que irão receber as informações da API
+  Basicamente o meu projeto seguiu o padrão MVC, meus principais Models são <div ="classe">WeatherData</div> que contém as classes que irão receber as informações da API
+  
+  <style> 
+    .classe{
+      color: #CCA3F9';
+    }
+  </style>
   
 ```csharp
     public class WeatherData
@@ -55,13 +61,22 @@ E finalmente, para converter as informações do arquivo json para dados validos
     }
 ```
   
-  ```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-coloca markdown.to_html
+ e UserData, que irá definir os usuários do sistema
+  
+  ```csharp
+       class UserData
+    {
+        public String name { get; set; }
+        public String password { get; set; }
+        public String email { get; set; }
+
+        public UserData(String name, String password, String email)
+        {
+            this.name = name;
+            this.password = password;
+            this.email = email;
+        }
+    }
 ```
-  
-  
 
 
