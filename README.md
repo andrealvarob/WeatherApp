@@ -20,5 +20,43 @@ Para ajudar a criação da interface gráfica foram usadas imagens
   
   > Designed by macrovector / Freepik & toutiaoap gallery, ícones foram baixados de <a>https://openweathermap.org/</a>
 
+A repositório a seguir serviu como base para estudo sobre APIs
+
+  > <a>https://github.com/public-apis/public-apis<a/>
+
+Após ler toda documentaçãao, escolhi a API openweather para fornecer as informações que eu precisava sobre o clíma
+  
+  > <a>https://openweathermap.org/current</a>
+
+E finalmente, para converter as informações do arquivo json para dados validos no meu programa utilizei um NuGet Package que deve ser instalado para a aplicação funcionar
+  
+  > newtonsoft.json
+  
+  # Sobre o desenvolvimento
+  
+  Basicamente o meu projeto seguiu o padrão MVC, meus principais Models são WeatherData que contém as classes que irão receber as informações da API
+  
+    ```C#
+  
+      public class WeatherData
+      {
+        public Coord coord { get; set; }
+        public Weather[] weather { get; set; }
+        public string _base { get; set; }
+        public Main main { get; set; }
+        public int visibility { get; set; }
+        public Wind wind { get; set; }
+        public Clouds clouds { get; set; }
+        public int dt { get; set; }
+        public Sys sys { get; set; }
+        public int timezone { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
+        public int cod { get; set; }
+      }
+  
+    ```
+  
+  
 
 
