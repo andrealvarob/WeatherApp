@@ -73,4 +73,10 @@ E finalmente, para converter as informações do arquivo json para dados validos
     }
 ```
 
+Os outros arquivos principais são as Views, aqui utlizamos uma view para Tela de Login, **LoginUI**, e uma para tela principal, **WeatherPAge**, onde a informações sobre o clíma serão tratadas e exibidas.
+  
+# Como funcina
+  
+ O aplicativo incia a tela de login, nessa tela o sistema checa se o usuário está cadastrado para poder logar, após três tentativas malsucedidas, o usuário recebe notificação para verificar o email. Se o login for realizado, o app irá encaminhar para a tela principal, nessa tela, possuimos um campo onde o pode-se colocar um lugar, sempre no formato: "Cidade, Estado, País", caso a entrada estaja em um formato diferente do formato predefinido, será recebida uma notificação de que a entrada é inválida. Quando o usuário pesquisa por um lugar, é feita uma requisição para API openweather(<a>https://openweathermap.org/current</a>), logo aqpós o usuário recebe as informações sobre o cliema daquela região.
+
 
