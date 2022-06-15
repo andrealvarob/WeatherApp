@@ -8,8 +8,8 @@ O projeto tem como objetivo desenvolver um applicativo usando Xamarim Forms com 
 
   - Possuir uma tela de login;
   - Possuir uma autenticação;
-  - Possuir uma gerenciamento de erros para autenticação;
-  - Possuir um conexão com uma API externa;
+  - Possuir um gerenciamento de erros para autenticação;
+  - Possuir uma conexão com uma API externa;
   - Fazer tratamento de dados obtidos pela API;
 
 Dados os requisitos enumerados anteriormente, elaborei uma aplicação que realiza login no sistema e devolve dados sobre o clíma da região onde o usuário decidir buscar.
