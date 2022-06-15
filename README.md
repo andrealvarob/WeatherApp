@@ -36,7 +36,7 @@ E finalmente, para converter as informações do arquivo json para dados validos
   
   Basicamente o meu projeto seguiu o padrão MVC, meus principais Models são WeatherData que contém as classes que irão receber as informações da API
   
-  <font color="red">This is some text!</font>
+  <font color="#CCA3F9">This is some text!</font>
   
 ```csharp
     public class WeatherData
