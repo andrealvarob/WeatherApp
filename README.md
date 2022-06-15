@@ -16,7 +16,7 @@ Dados os requisitos enumerados anteriormente, elaborei uma aplicação que reali
 
 # Recursos utilizados para o desenvolvimento
 
-Para ajudar a criação da interface gráfica foram usadas imagens 
+Para ajudar na criação da interface gráfica foram usadas imagens 
   
   > Designed by macrovector / Freepik & toutiaoap gallery, ícones foram baixados de <a>https://openweathermap.org/</a>
 
