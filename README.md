@@ -34,9 +34,7 @@ E finalmente, para converter as informações do arquivo json para dados validos
   
   # Sobre o desenvolvimento
   
-  Basicamente o meu projeto seguiu o padrão MVC, meus principais Models são WeatherData que contém as classes que irão receber as informações da API
-  
-  <font color="#CCA3F9">This is some text!</font>
+  Basicamente o meu projeto seguiu o padrão MVC, meus principais Models são **WeatherData** que contém as classes que irão receber as informações da API
   
 ```csharp
     public class WeatherData
@@ -57,7 +55,7 @@ E finalmente, para converter as informações do arquivo json para dados validos
     }
 ```
   
- e UserData, que irá definir os usuários do sistema
+ e **UserData**, que irá definir os usuários do sistema
   
   ```csharp
        class UserData
