@@ -34,13 +34,9 @@ E finalmente, para converter as informações do arquivo json para dados validos
   
   # Sobre o desenvolvimento
   
-  Basicamente o meu projeto seguiu o padrão MVC, meus principais Models são <div ="classe">WeatherData</div> que contém as classes que irão receber as informações da API
+  Basicamente o meu projeto seguiu o padrão MVC, meus principais Models são WeatherData que contém as classes que irão receber as informações da API
   
-  <style> 
-    .classe{
-      color: #CCA3F9';
-    }
-  </style>
+  <font color="red">This is some text!</font>
   
 ```csharp
     public class WeatherData
