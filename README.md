@@ -36,10 +36,9 @@ E finalmente, para converter as informações do arquivo json para dados validos
   
   Basicamente o meu projeto seguiu o padrão MVC, meus principais Models são WeatherData que contém as classes que irão receber as informações da API
   
-    '''ruby
-  
-      public class WeatherData
-      {
+```csharp
+    public class WeatherData
+    {
         public Coord coord { get; set; }
         public Weather[] weather { get; set; }
         public string _base { get; set; }
@@ -53,9 +52,8 @@ E finalmente, para converter as informações do arquivo json para dados validos
         public int id { get; set; }
         public string name { get; set; }
         public int cod { get; set; }
-      }
-  
-    '''
+    }
+```
   
   ```ruby
 require 'redcarpet'
